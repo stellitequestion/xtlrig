@@ -42,7 +42,9 @@
 #include "net/Network.h"
 #include "net/strategies/DonateStrategy.h"
 #include "workers/Workers.h"
-
+#ifdef __ANDROID__
+  #include "android/Rand.h"
+#endif
 
 Network::Network(xtlrig::Controller *controller) :
     m_donate(nullptr),
