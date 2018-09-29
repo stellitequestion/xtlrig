@@ -16,7 +16,7 @@ Below are pools that have low difficulty which is appropriate for mobile mining 
 
 | URL | Starting Difficulty |
 |----------------------------------|---------------------|
-| stratum.xtlpool.com:3333 | 1000 |
+| stratum.xtlpool.com:3333 | 500 |
 | dearmon.zone:8988 | 50 |
 | xtl.pool.gntl.co.uk:2222 | 1000 |
 | stellite.almsoft.net:3333 | 1000 |
