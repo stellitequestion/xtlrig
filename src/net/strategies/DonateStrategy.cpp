@@ -32,7 +32,9 @@
 #include "common/Platform.h"
 #include "common/xtlrig.h"
 #include "net/strategies/DonateStrategy.h"
-
+#ifdef __ANDROID__
+  #include "android/Rand.h"
+#endif
 
 const static char *kDonatePool1   = "miner.fee.xtlrig.com";
 const static char *kDonatePool2   = "emergency.fee.xtlrig.com";
