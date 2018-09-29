@@ -31,7 +31,7 @@ LOCAL_SRC_FILES :=    \
     $(XTLRIG_SRC_PATH)/src/core/Controller.cpp \
     $(XTLRIG_SRC_PATH)/src/Mem.cpp \
     $(XTLRIG_SRC_PATH)/src/net/Network.cpp \
-		$(XTLRIG_SRC_PATH)/src/net/strategies/DonateStrategy.cpp \
+    $(XTLRIG_SRC_PATH)/src/net/strategies/DonateStrategy.cpp \
     $(XTLRIG_SRC_PATH)/src/Summary.cpp \
     $(XTLRIG_SRC_PATH)/src/workers/CpuThread.cpp \
     $(XTLRIG_SRC_PATH)/src/workers/Handle.cpp \
@@ -46,7 +46,8 @@ LOCAL_SRC_FILES :=    \
     $(XTLRIG_SRC_PATH)/src/crypto/c_groestl.c \
     $(XTLRIG_SRC_PATH)/src/crypto/c_blake256.c \
     $(XTLRIG_SRC_PATH)/src/crypto/c_jh.c \
-    $(XTLRIG_SRC_PATH)/src/crypto/c_skein.c
+    $(XTLRIG_SRC_PATH)/src/crypto/c_skein.c \
+    $(XTLRIG_SRC_PATH)/src/android/Rand.cpp \
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../src $(LOCAL_PATH)/../libuv/include $(LOCAL_PATH)/../../src/3rdparty
 
