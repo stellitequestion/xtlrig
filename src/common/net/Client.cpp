@@ -38,7 +38,9 @@
 #include "rapidjson/error/en.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/writer.h"
-
+#ifdef __ANDROID__
+  #include "android/Rand.h"
+#endif
 
 #ifdef _MSC_VER
 #   define strncasecmp(x,y,z) _strnicmp(x,y,z)
